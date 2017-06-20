@@ -1,0 +1,18 @@
+#ifndef CODING_H
+#define CODING_H
+
+#include "binmat.h"
+//#include "GolombCoder.h"
+
+#define COSMOS_2E	5.436563656918090181591196596855297684669
+#define COSMOS_2PI	6.283185307179586231995926937088370323181
+#define COSMOS_2EPI	17.07946844534713193297648103907704353333
+#define COSMOS_LOG2E	1.442695040888963387004650940070860087872
+#define COSMOS_LOG2PI	1.651496129472318719066947778628673404455
+#define COSMOS_LOG2EPI	4.0941911703612818840269937936682254076
+
+double enumerative_codelength(const unsigned n,
+			      const unsigned r);
+double universal_codelength(const unsigned n,
+			      const unsigned r);
+#endif
